@@ -14,7 +14,12 @@
     <feature>esh-base</feature>
     <bundle>mvn:org.eclipse.smarthome.binding/org.eclipse.smarthome.binding.astro/${project.version}</bundle>
   </feature>
-
+    
+    <feature name="openhab-binding-chromecast" version="${project.version}">
+    <feature>openhab-base</feature>
+    <bundle>mvn:org.openhab.binding/org.openhab.binding.chromecast/${project.version}</bundle>
+  </feature>
+    
   <feature name="esh-binding-digitalstrom" version="${project.version}">
     <feature>esh-base</feature>
     <feature>esh-io-transport-mdns</feature>
